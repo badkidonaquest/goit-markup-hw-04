@@ -58,6 +58,10 @@ img {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 .logo {
   margin-right: 76px;
   text-transform: uppercase;
@@ -274,6 +278,7 @@ img {
 }
 
 .item-description {
+  margin-bottom: 8px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -283,9 +288,12 @@ img {
 .customers-list {
   display: flex;
   list-style: none;
+  gap: 24px;
 }
 
-.customers-item {}
+.customers-item {
+  flex-basis: calc((100% - 120px) / 6);
+}
 
 /* portfolio */
 
