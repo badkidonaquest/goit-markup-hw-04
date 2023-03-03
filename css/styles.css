@@ -349,12 +349,16 @@ img {
 .customers-item:hover,
 .customers-item:focus {
   cursor: pointer;
-  border-color: #404bbf;
+  border: 1px solid #404bbf;
 }
 
-/* .customers-list-item:hover{
+.customers-list-item {
+  fill: #8e8f99;
+}
+
+.customers-list-item:hover {
   fill: #404bbf;
-} */
+}
 
 /* Portfolio */
 
