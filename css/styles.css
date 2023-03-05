@@ -361,6 +361,7 @@ img {
 
 .customers-list-item:is(:hover, :focus) {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
 
 .customers-list-icon {
@@ -368,7 +369,7 @@ img {
 }
 
 .customers-list-item:is(:hover, :focus) .customers-list-icon {
-  fill: #404bbf;
+  fill: currentColor;
 }
 
 /* Portfolio */
@@ -436,7 +437,7 @@ img {
   text-decoration: none;
 }
 
-.example:is(:hover,:focus) {
+.example:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
